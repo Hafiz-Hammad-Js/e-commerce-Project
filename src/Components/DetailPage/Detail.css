@@ -1,0 +1,336 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../../../../Fonts/Inter_18pt-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../Fonts/Poppins-Regular.ttf");
+}
+
+
+.box-01DetailImages {
+    width: 170px;
+    height: 138px;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.box-01DetailImages>img {
+    width: 100%;
+}
+
+.ImgParentDetail {
+    width: 500px;
+    height: 590px;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.ImgParentDetail>img {
+    width: 100%;
+}
+
+.child-OneDetail {
+    display: flex;
+}
+
+.child-TwoDetail {
+    margin-left: 20px;
+}
+
+.child-TwoDetail>h1 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Inter";
+    color: #000000;
+    margin-top: 20px;
+}
+
+.child-TwoDetail>h3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Inter";
+    color: #000000;
+    margin-top: 10px;
+}
+
+.child-TwoDetail>p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "Pop";
+    color: #000000;
+    margin-top: 10px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 30px;
+}
+
+.childOne_subDetail>button {
+    border: none;
+    font-family: "Pop";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.redColor {
+    background-color: #DB4444;
+    color: white;
+}
+
+.redColor:hover {
+    background-color: black;
+    color: #DB4444;
+}
+
+.OrderNow {
+    width: 100px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #DB4444;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FAFAFA;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.childParent {
+    display: flex;
+}
+
+.deliveryWork {
+    width: 399px;
+    height: 180px;
+    border-radius: 4px;
+    border: 1px solid #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.childTwo_delivery {
+    margin-left: 10px;
+
+}
+
+.childTwo_delivery>h1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Pop";
+}
+
+.childTwo_delivery>p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    font-family: "Pop";
+}
+
+.childParentOne_delivery {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.parentDeatil {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+@media (max-width: 390px) {
+    .parentDeatil {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .child-OneDetail {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ImgParentDetail {
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .small_imgParent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-01DetailImages {
+       
+        margin-right: 05px;
+        width: 140px;
+        height: 118px;
+        background-color: #F5F5F5;
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .child-TwoDetail>p {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        font-family: "Pop";
+        color: #000000;
+        margin-top: 10px;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 30px;
+    }
+
+    .deliveryWork {
+        width: 300px;
+        height: 180px;
+        border-radius: 4px;
+        border: 1px solid #00000080;
+        display: flex;
+        margin-top: 20px;
+    }
+    .child-TwoDetail {
+        margin-left: 0px;
+    }
+    
+}
+
+
+@media (min-width: 390px) and (max-width: 576px){
+    .parentDeatil {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .child-OneDetail {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ImgParentDetail {
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .small_imgParent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-01DetailImages {
+
+        margin-right: 05px;
+        width: 140px;
+        height: 118px;
+        background-color: #F5F5F5;
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .child-TwoDetail>p {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+        font-family: "Pop";
+        color: #000000;
+        margin-top: 10px;
+        border-bottom: 1px solid #000000;
+        padding-bottom: 30px;
+    }
+
+    .deliveryWork {
+        width: 300px;
+        height: 180px;
+        border-radius: 4px;
+        border: 1px solid #00000080;
+        display: flex;
+        margin-top: 20px;
+    }
+    .child-TwoDetail {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .parentDeatil {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .child-TwoDetail {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px ){
+    .parentDeatil {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .child-TwoDetail {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .parentDeatil {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

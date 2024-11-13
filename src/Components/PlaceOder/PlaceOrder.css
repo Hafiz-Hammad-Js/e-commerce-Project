@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../../../../Fonts/Inter_18pt-Regular.ttf");
+}
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../Fonts/Poppins-Regular.ttf");
+}
+.grantParent_Order>h1{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color:  #000000;
+    text-align: center;
+}
+.labelWork{
+    font-family: "Pop";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+.labelSpan{
+    color: #DB4444;
+}
+.orderINput{
+    width: 470px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.labelParent{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Order_Paerent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grantParent_Order{
+    margin-top: 50px;
+}
+
+.slipOrder{
+    display: flex;
+    justify-content: space-between;
+    width: 422px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.slipOrder>h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Pop";
+    color: #000000;
+    margin-top: 10px;
+}
+
+.cashInput{
+    accent-color: black;
+}
+
+.CashLabel{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Pop";
+    margin-left: 10px;
+}
+
+.CashParent{
+    margin-top: 20px;
+}
+
+.OrderBBTn{
+    width: 190px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    border: none;
+    font-weight: 500;
+    font-family: "Pop";
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin-top: 20px;
+}
+
+@media (max-width: 390px){
+    .Order_Paerent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .orderINput{
+        width: 280px;
+        height: 50px;
+        padding: 10px;
+    }
+    .slipOrder{
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+        margin-top: 20px;
+    
+    }
+    
+}
+
+@media (min-width: 390px) and (max-width: 576px){
+    .Order_Paerent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .orderINput{
+        width: 280px;
+        height: 50px;
+        padding: 10px;
+    }
+    .slipOrder{
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+        margin-top: 20px;
+    
+    }
+    
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px){
+    .Order_Paerent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .orderINput{
+        width: 500px;
+        height: 50px;
+        padding: 10px;
+    }
+    .slipOrder{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 20px;
+    
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .Order_Paerent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .orderINput{
+        width: 500px;
+        height: 50px;
+        padding: 10px;
+    }
+    .slipOrder{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 20px;
+    
+    }
+    
+}

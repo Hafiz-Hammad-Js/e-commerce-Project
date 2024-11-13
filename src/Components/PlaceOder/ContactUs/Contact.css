@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../../Fonts/Poppins-Regular.ttf");
+}
+
+.childOne_Contact {
+    width: 340px;
+    height: 457px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconWork {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.iconWork>img {
+    width: 100%;
+}
+
+.callWork {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    font-family: "Pop";
+    margin-left: 10px;
+}
+
+.callWork_parent {
+    display: flex;
+    align-items: center;
+}
+
+.answer2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Pop";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.answer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Pop";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.flexWorkChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactParent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.childTwo_Contact {
+    width: 800px;
+    height: 457px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.users {
+    width: 235px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 5px;
+    font-family: "Pop";
+}
+
+.textarea {
+    width: 737px;
+    height: 207px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-family: "Pop";
+    margin-left: 6px;
+}
+
+.contactBTTn {
+    width: 215px;
+    height: 56px;
+    background-color: #DB4444;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+.btnWork_Contact {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 390px) {
+    .ContactParent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .textarea {
+        width: 280px;
+        height: 207px;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        font-family: "Pop";
+        margin-left: 6px;
+        padding: 10px;
+    }
+
+    .childTwo_Contact {
+        width: 300px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .users {
+      margin-top: 10px;
+    }
+    .inpusUser_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btnWork_Contact {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .childOne_Contact{
+        width: auto;
+    }
+    
+}
+
+
+@media (min-width: 390px) and (max-width: 576px) {
+    .ContactParent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .textarea {
+        width: 280px;
+        height: 207px;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        font-family: "Pop";
+        margin-left: 6px;
+        padding: 10px;
+    }
+
+    .childTwo_Contact {
+        width: 300px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .users {
+      margin-top: 10px;
+    }
+    .inpusUser_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btnWork_Contact {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .ContactParent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .textarea {
+        width: 500px;
+        height: 207px;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        font-family: "Pop";
+        margin-left: 6px;
+        padding: 10px;
+    }
+
+    .childTwo_Contact {
+        width: 500px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .childOne_Contact{
+        order: 2;
+    }
+    .users {
+      margin-top: 10px;
+    }
+    .inpusUser_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btnWork_Contact {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .ContactParent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .textarea {
+        width: 680px;
+        height: 207px;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        font-family: "Pop";
+        margin-left: 6px;
+        padding: 10px;
+    }
+
+    .childTwo_Contact {
+        width: 700px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .childOne_Contact{
+        order: 2;
+    }
+    .users {
+      margin-top: 10px;
+    }
+    .inpusUser_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .btnWork_Contact {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .ContactParent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .textarea {
+        width: 880px;
+        height: 207px;
+        border-radius: 4px;
+        background-color: #F5F5F5;
+        margin-top: 20px;
+        border: none;
+        outline: none;
+        font-family: "Pop";
+        margin-left: 6px;
+        padding: 10px;
+    }
+
+    .childTwo_Contact {
+        width: 900px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .childOne_Contact{
+        order: 2;
+    }
+ 
+    .btnWork_Contact {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}

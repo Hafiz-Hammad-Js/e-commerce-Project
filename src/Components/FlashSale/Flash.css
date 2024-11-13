@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../Fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../../../../Fonts/Inter_18pt-Regular.ttf");
+}
+
+
+.Flash-Parent {
+    margin-top: 50px;
+}
+
+.FlashHeadingParent {
+    display: flex;
+    align-items: center;
+
+}
+
+.FlashHeadingParent>h1 {
+    font-family: "Pop";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #DB4444;
+    margin-left: 20px;
+}
+
+.boxx {
+    width: 20px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #DB4444;
+}
+
+.Head {
+    padding: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: "Pop";
+}
+
+.Value {
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: "Inter";
+    padding: 10px;
+}
+
+.dot {
+    color: #E07575;
+    font-size: 20px;
+}
+
+/* carts */
+.cart-boxx {
+    width: 250px;
+    height: 230px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-boxx>img {
+    width: 100%;
+}
+
+.Title-product {
+    font-size: 16px;
+    font-family: "Pop";
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.Price-product {
+    color: #DB4444;
+    font-size: 16px;
+    font-family: "Pop";
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.discount {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Pop";
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+.btnn-Detail {
+    width: 250px;
+    border: none;
+    padding: 10px;
+    background-color: #DB4444;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.btnnDetailParent {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btnnPrductParent{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.btnnPrductParent>button {
+    width: 234px;
+    height: 56px;
+    border: none;
+    padding: 10px;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: "Pop";
+}
+
+
+.btnn-Detail:hover {
+    background-color: #E07575;
+}
+
+.FlashItems{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cartt{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* cart Finished */
+@media (min-width: 768px) {
+    .TimeSide-Parent {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 500px;
+    }
+}
+
+@media(max-width: 390px) {
+    .TimeSide-Parent {
+        margin-top: 30px;
+        display: flex;
+        width: 200px;
+
+        flex-direction: column;
+
+    }
+
+    .Value {
+        font-size: 32px;
+        line-height: 30px;
+        font-weight: 700;
+        font-family: "Inter";
+        padding: 10px;
+    }
+
+    .Head {
+        padding: 10px;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+        font-family: "Pop";
+    }
+
+    .dot {
+        color: #E07575;
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 390px) and (max-width: 576px) {
+    .TimeSide-Parent {
+        margin-top: 30px;
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+
+    }
+
+    .Value {
+        font-size: 32px;
+        line-height: 30px;
+        font-weight: 700;
+        font-family: "Inter";
+        padding: 10px;
+    }
+
+    .Head {
+        padding: 10px;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+        font-family: "Pop";
+    }
+
+    .dot {
+        color: #E07575;
+        font-size: 20px;
+    }
+}

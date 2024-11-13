@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../Fonts/Poppins-Regular.ttf");
+}
+
+
+.Monthly-Parent {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.Monthly-Parent>button{
+    width: 160px;
+    height: 56px;
+    background-color: #DB4444;
+    border: none;
+    font-family: "Pop";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FAFAFA;
+     border-radius: 5px;
+}
+.Monthly-Parent>button:hover{
+    background-color: #db6d6d;
+}
+.images{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.images>img{
+    width: 100%;
+    border-radius: 10px;
+}

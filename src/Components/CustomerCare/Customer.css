@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../Fonts/Poppins-Regular.ttf");
+}
+
+.spport_Parent>h1{
+    font-family: "Pop";
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.spport_Parent>p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: "Pop";
+    color: #000000;
+    text-align: center;
+}
+.Parent_Care{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.logo-Icon{
+    display: flex;
+    justify-content: center;
+}
+.Grant_parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}

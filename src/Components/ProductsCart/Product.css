@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../Fonts/Poppins-Regular.ttf");
+}
+
+
+.categories_parent{
+    width: 170px;
+    height: 100px;
+    border: 1px solid #0000004D;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.categories_parent:hover{
+    box-shadow: 0px 1px 13px 0px #0000000D;
+    background-color: #DB4444;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+.Child_categories{
+    width: 56px;
+    height: 56px;
+   
+}
+.Child_categories>img{
+    width: 100%;
+}
+
+.categories_parent>h4{
+    font-family: "Pop";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.Category-GrantParent{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+

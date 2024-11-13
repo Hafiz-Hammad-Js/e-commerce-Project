@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "Pop";
+    src: url("../../../../Fonts/Poppins-Regular.ttf");
+}
+.Navbar_work{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.Main_Heading {
+    background-color: black;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main_Heading>h1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FAFAFA;
+    font-family: "Pop";
+    text-align: center;
+    margin: 10px;
+}
+
+.Span-Btnn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FAFAFA;
+    font-family: "Pop";
+    text-align: center;
+}
+
+/* Navbar Working Start */
+@font-face {
+    font-family: "inter";
+    src: url("../../../../Fonts/Inter_18pt-Regular.ttf");
+}
+
+.Logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "inter";
+}
+
+.my-input {
+    width: 243px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    font-family: "Pop";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    outline: none;
+    border: none;
+}
+
+.btnn {
+    border: none;
+    color: #000000;
+    background-color: #F5F5F5;
+    height: 38px;
+    border-radius: 4px;
+    padding-right: 10px;
+    position: relative;
+    right: 20px;
+}
+
+.my-cart {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.userImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.userImg>img {
+    width: 100%;
+}
+
+.nav-link{
+    font-family: "Pop";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 30px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+@media (min-width: 1200px){
+    .Logo{
+        margin-right: 90px;
+    }
+}
+/* Navbar Working Finished */
+
+
+@media (max-width: 390px) {
+    .Main_Heading>h1 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        color: #FAFAFA;
+        font-family: "Pop";
+        text-align: center;
+        margin: 10px;
+    }
+    /* Navbar */
+    .nav-link{
+        font-family: "Pop";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #000000;
+        margin-left: 0px;
+    }
+    .my-input{
+        margin-bottom: 20px;
+    }
+    .Logo{
+        font-size: 18px;
+    }
+    /* Navbar Finished!! */
+    .userImg {
+       display: block;
+       margin-top: 20px;
+    }
+    
+    .userImg>img {
+        display: block;
+    }
+    .my-cart{
+        margin-top: 10px;
+    }
+}
+
+
+@media (min-width: 390px) and (max-width:576px) {
+    .Main_Heading>h1 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        color: #FAFAFA;
+        font-family: "Pop";
+        text-align: center;
+        margin: 10px;
+    }
+       /* Navbar */
+       .nav-link{
+        font-family: "Pop";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #000000;
+        margin-left: 0px;
+    }
+    .my-input{
+        margin-bottom: 20px;
+    }
+
+    .userImg {
+        display: block;
+        margin-top: 20px;
+     }
+     
+     .userImg>img {
+         display: block;
+     }
+    /* Navbar Finished!! */
+    .my-cart{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+       /* Navbar */
+       .nav-link{
+        font-family: "Pop";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #000000;
+        margin-left: 0px;
+    }
+    .my-input{
+        margin-bottom: 20px;
+    }
+
+    .userImg {
+        display: block;
+        margin-top: 20px;
+     }
+     
+     .userImg>img {
+         display: block;
+     }
+    /* Navbar Finished!! */
+    .my-cart{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    /* Navbar */
+    .nav-link{
+     font-family: "Pop";
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #000000;
+     margin-left: 0px;
+ }
+ .my-input{
+     margin-bottom: 20px;
+ }
+
+ .userImg {
+    display: block;
+    margin-top: 20px;
+ }
+ 
+ .userImg>img {
+     display: block;
+ }
+ /* Navbar Finished!! */
+ .my-cart{
+    margin-top: 10px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .Logo{
+        margin-right: 10px;
+    }
+    .userImg{
+        width: 30px;
+        height: 30px;
+    }
+    .my-input {
+        width: 220px;
+        height: 38px;
+    } 
+}
